@@ -1,0 +1,21 @@
+{
+    "name": "honl/magento2-nb-no",
+    "description": "H&O Magento 2 Norsk Bokmål Translations",
+    "homepage": "https://github.com/ho-nl/magento2-nb_NO",
+    "authors": [
+        {
+            "name": "Jeroen van Leusden - H&O",
+            "email": "jeroen@h-o.nl"
+        }
+    ],
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "type": "magento2-language",
+    "license": "BSD-2-Clause",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

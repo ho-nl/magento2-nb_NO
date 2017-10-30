@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © Reach Digital (https://www.reachdigital.io/)
+  ~ See LICENSE.txt for license details.
+  -->
+
+<language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/Language/package.xsd">
+    <code>nb_NO</code>
+    <vendor>ho</vendor>
+    <package>nb_no</package>
+</language>
