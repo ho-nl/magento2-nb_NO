@@ -222,7 +222,7 @@ button_label,button_label,module,Magento_AdvancedSearch
 "Enable Search Suggestions","Aktivere søkeforslag",module,Magento_AdvancedSearch
 "Search Suggestions Count","Antall søke forslag",module,Magento_AdvancedSearch
 "Show Results Count for Each Suggestion","Vis antall resultat for hvert forslag",module,Magento_AdvancedSearch
-"Related search terms","Related search terms",module,Magento_AdvancedSearch
+"Related search terms","Relaterte søkeord",module,Magento_AdvancedSearch
 "Did you mean","Mente du",module,Magento_AdvancedSearch
 ID,ID,module,Magento_AdvancedSearch
 "Search Query",Søkeord,module,Magento_AdvancedSearch
@@ -367,7 +367,7 @@ Error,Feil,module,Magento_AsynchronousOperations
 "amount %1","beløp %1",module,Magento_Authorizenet
 failed.,mislyktes.,module,Magento_Authorizenet
 successful.,vellykket.,module,Magento_Authorizenet
-"Authorize.Net Transaction ID %1.","Authorize.Net Transaction ID %1.",module,Magento_Authorizenet
+"Authorize.Net Transaction ID %1.","Authorize.Net Transaksjons ID %1.",module,Magento_Authorizenet
 authorize,autoriser,module,Magento_Authorizenet
 "authorize and capture","godkjenn og fang",module,Magento_Authorizenet
 capture,fange,module,Magento_Authorizenet
@@ -376,18 +376,18 @@ void,Ugyldig,module,Magento_Authorizenet
 "Gateway error: %1","Gateway-feil: %1",module,Magento_Authorizenet
 "Something went wrong in the payment gateway.","Noe gikk galt i betalingsportalen.",module,Magento_Authorizenet
 "Invalid amount for capture.","Ugyldig beløp for mottak.",module,Magento_Authorizenet
-"Payment capturing error.","Payment capturing error.",module,Magento_Authorizenet
+"Payment capturing error.","Fullføring av transaksjonen feilet.",module,Magento_Authorizenet
 "Invalid transaction ID.","Ugyldig transaksjons-ID.",module,Magento_Authorizenet
-"Payment voiding error.","Payment voiding error.",module,Magento_Authorizenet
-"Invalid amount for refund.","Invalid amount for refund.",module,Magento_Authorizenet
-"Payment refunding error.","Payment refunding error.",module,Magento_Authorizenet
-"The transaction was declined because the response hash validation failed.","The transaction was declined because the response hash validation failed.",module,Magento_Authorizenet
+"Payment voiding error.","Fullføring av transaksjonen feilet.",module,Magento_Authorizenet
+"Invalid amount for refund.","Ugyldig beløp for tilbakebetaling.",module,Magento_Authorizenet
+"Payment refunding error.","Tilbakebetaling feilet.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","Transaksjonen ble nektet, siden validering feilet.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","This payment didn't work out because we can't find this order.",module,Magento_Authorizenet
-"There was a payment authorization error.","There was a payment authorization error.",module,Magento_Authorizenet
-"Please enter a transaction ID to authorize this payment.","Please enter a transaction ID to authorize this payment.",module,Magento_Authorizenet
+"There was a payment authorization error.","Det oppstod en feil ved betaling, grunnet valideringsfeil.",module,Magento_Authorizenet
+"Please enter a transaction ID to authorize this payment.","Vennligst fyll inn transaksjonsnummer for å autorisere denne betalingen.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.",module,Magento_Authorizenet
-"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transaction %1 has been approved. Amount %2. Transaction status is ""%3""",module,Magento_Authorizenet
-"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.",module,Magento_Authorizenet
+"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transaksjon %1 har blitt godkjent. Beløp %2. Transaksjonsstatus er ""%3""",module,Magento_Authorizenet
+"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaksjon %1 har blitt avslått. Transaksjonsstatus er ""%2"". Beløp %3.",module,Magento_Authorizenet
 "Authorize Only","Bare godkjenne",module,Magento_Authorizenet
 "Authorize and Capture","Godkjenn og fang",module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.","Kan ikke hente transaksjonsdetaljene. Prøv igjen senere.",module,Magento_Authorizenet
@@ -400,7 +400,7 @@ void,Ugyldig,module,Magento_Authorizenet
 "Fraud Detection","Avdekking av svindel",module,Magento_Authorizenet
 "FDS Filter Action","FDS filterhandling",module,Magento_Authorizenet
 "AVS Response","AVS svar",module,Magento_Authorizenet
-"Card Code Response","Card Code Response",module,Magento_Authorizenet
+"Card Code Response","Kode fra kortutsteder:",module,Magento_Authorizenet
 "CAVV Response","CAVV svar",module,Magento_Authorizenet
 "Fraud Filters",Svindel-filtre,module,Magento_Authorizenet
 "Place Order",Bestill,module,Magento_Authorizenet
@@ -675,9 +675,9 @@ Magento,Magento,module,Magento_Backend
 "Customer View",Kundevisning,module,Magento_Backend
 "Sign Out","Logg ut",module,Magento_Backend
 "About the calendar","About the calendar",module,Magento_Backend
-Close,Close,module,Magento_Backend
-"Go Today","Go Today",module,Magento_Backend
-Previous,Previous,module,Magento_Backend
+Close,Lukk,module,Magento_Backend
+"Go Today","I Dag",module,Magento_Backend
+Previous,Forrige,module,Magento_Backend
 Next,Neste,module,Magento_Backend
 WK,WK,module,Magento_Backend
 Time,Time,module,Magento_Backend
@@ -962,7 +962,7 @@ Time,Tid,module,Magento_Backup
 Name,Navn,module,Magento_Backup
 Size(bytes),Størrelse(bytes),module,Magento_Backup
 Type,Type,module,Magento_Backup
-Download,Download,module,Magento_Backup
+Download,"Last ned",module,Magento_Backup
 Action,Action,module,Magento_Backup
 Banners,Bannere,module,Magento_Banner
 "Add Banner","Legg til banner",module,Magento_Banner
@@ -1415,7 +1415,7 @@ Forms,Skjemaer,module,Magento_Captcha
 "Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.","Bruk bare bokstaver (a-z eller A-Z) eller tall (0-9) i dette feltet. Mellomrom og andre tegn er ikke tillatt. < br / > lignende utseende tegn (f.eks ""i"", ""l"", ""1"") redusere sjansen for riktig anerkjennelse av kunden.",module,Magento_Captcha
 "Case Sensitive","Case Sensitive",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Enable CAPTCHA on Storefront",module,Magento_Captcha
-"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA for ""Opprett bruker"" og ""Glemt passord"" skjemaer er alltid aktivert hvis valgt.",module,Magento_Captcha
 Root,Rot,module,Magento_Catalog
 Delete,Slett,module,Magento_Catalog
 Save,Lagre,module,Magento_Catalog
@@ -2928,57 +2928,57 @@ Status,Status,module,Magento_Cms
 Disabled,Deaktivert,module,Magento_Cms
 Enabled,Aktivert,module,Magento_Cms
 "Manage Pages","Administrere sider",module,Magento_Cms
-"Add New Page","Add New Page",module,Magento_Cms
-"Delete Page","Delete Page",module,Magento_Cms
+"Add New Page","Legg til ny side",module,Magento_Cms
+"Delete Page","Slett siden",module,Magento_Cms
 "Save Page","Lagre side",module,Magento_Cms
 "URL Key",URL-nøkkel,module,Magento_Cms
 Layout,Oppsett,module,Magento_Cms
-"Store View","Store View",module,Magento_Cms
-Created,Created,module,Magento_Cms
-Modified,Modified,module,Magento_Cms
-Action,Action,module,Magento_Cms
-Preview,Preview,module,Magento_Cms
+"Store View",Butikkvisning,module,Magento_Cms
+Created,Opprettet,module,Magento_Cms
+Modified,Endret,module,Magento_Cms
+Action,Handling,module,Magento_Cms
+Preview,Forhåndsvis,module,Magento_Cms
 "Media Storage","Media Storage",module,Magento_Cms
-"Create Folder...","Create Folder...",module,Magento_Cms
-"Delete Folder","Delete Folder",module,Magento_Cms
-"Delete File","Delete File",module,Magento_Cms
-"Insert File","Insert File",module,Magento_Cms
-"New Folder Name:","New Folder Name:",module,Magento_Cms
-"Are you sure you want to delete this folder?","Are you sure you want to delete this folder?",module,Magento_Cms
-"Are you sure you want to delete this file?","Are you sure you want to delete this file?",module,Magento_Cms
-"Images (%1)","Images (%1)",module,Magento_Cms
+"Create Folder...","Opprett mappen...",module,Magento_Cms
+"Delete Folder","Slett mappen",module,Magento_Cms
+"Delete File","Slett fil",module,Magento_Cms
+"Insert File","Sett inn fil",module,Magento_Cms
+"New Folder Name:","Nytt mappenavn:",module,Magento_Cms
+"Are you sure you want to delete this folder?","Er du sikker på at du vil slette denne mappen?",module,Magento_Cms
+"Are you sure you want to delete this file?","Er du sikker på at du vil slette denne filen?",module,Magento_Cms
+"Images (%1)","Bilder (%1)",module,Magento_Cms
 "Storage Root","Storage Root",module,Magento_Cms
-Home,Home,module,Magento_Cms
-"Go to Home Page","Go to Home Page",module,Magento_Cms
+Home,Hjem,module,Magento_Cms
+"Go to Home Page","Gå til forsiden",module,Magento_Cms
 CMS,CMS,module,Magento_Cms
-"You deleted the block.","You deleted the block.",module,Magento_Cms
+"You deleted the block.","Du slettet blokken.",module,Magento_Cms
 "We can't find a block to delete.","We can't find a block to delete.",module,Magento_Cms
-"This block no longer exists.","This block no longer exists.",module,Magento_Cms
+"This block no longer exists.","Denne blokken finnes ikke lenger.",module,Magento_Cms
 "Edit Block","Redigere blokk",module,Magento_Cms
 "New Block","Ny blokk",module,Magento_Cms
 Blocks,Blokker,module,Magento_Cms
-"Please correct the data sent.","Please correct the data sent.",module,Magento_Cms
+"Please correct the data sent.","Korriger dataene som sendes.",module,Magento_Cms
 "A total of %1 record(s) have been deleted.","A total of %1 record(s) have been deleted.",module,Magento_Cms
-"You saved the block.","You saved the block.",module,Magento_Cms
-"Something went wrong while saving the block.","Something went wrong while saving the block.",module,Magento_Cms
-"The page has been deleted.","The page has been deleted.",module,Magento_Cms
+"You saved the block.","Du lagret blokken.",module,Magento_Cms
+"Something went wrong while saving the block.","Noe gikk galt mens blokken skulle lagres.",module,Magento_Cms
+"The page has been deleted.","Siden har blitt slettet.",module,Magento_Cms
 "We can't find a page to delete.","We can't find a page to delete.",module,Magento_Cms
-"This page no longer exists.","This page no longer exists.",module,Magento_Cms
+"This page no longer exists.","Denne siden finnes ikke lenger.",module,Magento_Cms
 "Edit Page","Rediger side",module,Magento_Cms
-"New Page","New Page",module,Magento_Cms
-Pages,Pages,module,Magento_Cms
+"New Page","Ny side",module,Magento_Cms
+Pages,Sider,module,Magento_Cms
 "Something went wrong while saving the page.","Something went wrong while saving the page.",module,Magento_Cms
 "A total of %1 record(s) have been disabled.","A total of %1 record(s) have been disabled.",module,Magento_Cms
 "A total of %1 record(s) have been enabled.","A total of %1 record(s) have been enabled.",module,Magento_Cms
-"Page Title","Page Title",module,Magento_Cms
+"Page Title",Sidetittel,module,Magento_Cms
 "To apply changes you should fill in hidden required ""%1"" field","To apply changes you should fill in hidden required ""%1"" field",module,Magento_Cms
 "You saved the page.","You saved the page.",module,Magento_Cms
 "The directory %1 is not writable by server.","The directory %1 is not writable by server.",module,Magento_Cms
 "Make sure that static block content does not reference the block itself.","Make sure that static block content does not reference the block itself.",module,Magento_Cms
 "CMS Block with id ""%1"" does not exist.","CMS Block with id ""%1"" does not exist.",module,Magento_Cms
-"Enabled by Default","Enabled by Default",module,Magento_Cms
-"Disabled by Default","Disabled by Default",module,Magento_Cms
-"Disabled Completely","Disabled Completely",module,Magento_Cms
+"Enabled by Default","Aktivert som standard",module,Magento_Cms
+"Disabled by Default","Deaktivert som standard",module,Magento_Cms
+"Disabled Completely","Helt Deaktivert",module,Magento_Cms
 "This identifier is reserved for ""CMS No Route Page"" in configuration.","This identifier is reserved for ""CMS No Route Page"" in configuration.",module,Magento_Cms
 "This identifier is reserved for ""CMS Home Page"" in configuration.","This identifier is reserved for ""CMS Home Page"" in configuration.",module,Magento_Cms
 "This identifier is reserved for ""CMS No Cookies Page"" in configuration.","This identifier is reserved for ""CMS No Cookies Page"" in configuration.",module,Magento_Cms
@@ -3709,7 +3709,7 @@ Customers,Kunder,module,Magento_Customer
 "Please enter a password with at least %1 characters.","Skriv inn et passord med maks %1 tegn.",module,Magento_Customer
 "The password can't begin or end with a space.","Passordet kan ikke begynne eller slutte med et mellomrom.",module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum forskjellige klasser av tegn i passord er %1. Klasser av tegn: små bokstaver, store bokstaver, sifre, spesialtegn.",module,Magento_Customer
-"Password cannot be the same as email address.","Password cannot be the same as email address.",module,Magento_Customer
+"Password cannot be the same as email address.","Passord kan ikke være det samme som e-postadresse.",module,Magento_Customer
 "This customer already exists in this store.","Denne kunden finnes allerede i denne butikken.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","Det finnes allerede en kunde med denne e-postadressen i en tilknyttet webside.",module,Magento_Customer
 "%fieldName is a required field.","%fieldName er et obligatorisk.",module,Magento_Customer
@@ -3988,7 +3988,7 @@ Strong,Sterk,module,Magento_Customer
 "Enable Autocomplete on login/forgot password forms","Aktiver autofullfør på logg inn/glemt passord skjemaer",module,Magento_Customer
 "Account Information Options","Account Information Options",module,Magento_Customer
 "Change Email Template","Change Email Template",module,Magento_Customer
-"Change Email and Password Template","Change Email and Password Template",module,Magento_Customer
+"Change Email and Password Template","Endre e-postadresse og passord mal",module,Magento_Customer
 "Name and Address Options","Name and Address Options",module,Magento_Customer
 "Number of Lines in a Street Address","Number of Lines in a Street Address",module,Magento_Customer
 "Leave empty for default (2). Valid range: 1-4","Leave empty for default (2). Valid range: 1-4",module,Magento_Customer
@@ -5039,7 +5039,7 @@ Action,Action,module,Magento_Email
 "Change Encryption Key","Endre krypteringsnøkkel",module,Magento_EncryptionKey
 "Encryption Key",Krypteringsnøkkel,module,Magento_EncryptionKey
 "New Encryption Key","Ny krypteringsnøkkel",module,Magento_EncryptionKey
-"The encryption key is used to protect passwords and other sensitive data.","The encryption key is used to protect passwords and other sensitive data.",module,Magento_EncryptionKey
+"The encryption key is used to protect passwords and other sensitive data.","Krypteringsnøkkelen brukes til å beskytte passord og andre følsomme data.",module,Magento_EncryptionKey
 "Auto-generate a Key","Auto-generere en nøkkel",module,Magento_EncryptionKey
 No,Nei,module,Magento_EncryptionKey
 Yes,Ja,module,Magento_EncryptionKey
@@ -5079,10 +5079,10 @@ Enabled,Enabled,module,Magento_Eway
 Title,Title,module,Magento_Eway
 "Sandbox Mode","Sandbox Mode",module,Magento_Eway
 "Live API Key","Live API Key",module,Magento_Eway
-"Live API Password","Live API Password",module,Magento_Eway
+"Live API Password","API Passord",module,Magento_Eway
 "Live Client-side Encryption Key","Live Client-side Encryption Key",module,Magento_Eway
 "Sandbox API Key","Sandbox API Key",module,Magento_Eway
-"Sandbox API Password","Sandbox API Password",module,Magento_Eway
+"Sandbox API Password","Utviklingsmiljø API passord",module,Magento_Eway
 "Sandbox Client-side Encryption Key","Sandbox Client-side Encryption Key",module,Magento_Eway
 "Payment Action","Payment Action",module,Magento_Eway
 Debug,Debug,module,Magento_Eway
@@ -8341,6 +8341,7 @@ Action,Action,module,Magento_Reports
 Report,Report,module,Magento_Reports
 Description,Beskrivelse,module,Magento_Reports
 undefined,undefined,module,Magento_Reports
+"Item in Cart","Item in Cart",module,Magento_Reports
 "Save Review","Lagre anmeldelse",module,Magento_Review
 "New Review","Ny anmeldelse",module,Magento_Review
 "Review Details","Se gjennom detaljene",module,Magento_Review
@@ -10386,9 +10387,9 @@ None,Ingen,module,Magento_Security
 "This computer is using IP address %1.","This computer is using IP address %1.",module,Magento_Security
 "Admin Account Sharing","Admin Account Sharing",module,Magento_Security
 "If set to Yes, you can log in from multiple computers into same account. Default setting No improves security.","Hvis satt til Ja, kan du logge inn fra flere datamaskiner på samme konto. Standardinnstillingen Nei forbedrer sikkerheten.",module,Magento_Security
-"Password Reset Protection Type","Password Reset Protection Type",module,Magento_Security
-"Max Number of Password Reset Requests","Max Number of Password Reset Requests",module,Magento_Security
-"Limit the number of password reset request per hour. Use 0 to disable.","Limit the number of password reset request per hour. Use 0 to disable.",module,Magento_Security
+"Password Reset Protection Type","Passordendring beskyttelsestype",module,Magento_Security
+"Max Number of Password Reset Requests","Maks antall tillatte passordendringer",module,Magento_Security
+"Limit the number of password reset request per hour. Use 0 to disable.","Begrens antall passord endringer per time. Bruk 0 for å deaktivere.",module,Magento_Security
 "Min Time Between Password Reset Requests","Min Time Between Password Reset Requests",module,Magento_Security
 "Delay in minutes between password reset requests. Use 0 to disable.","Delay in minutes between password reset requests. Use 0 to disable.",module,Magento_Security
 "Page not found.","Fant ikke siden.",module,Magento_SendFriend
@@ -10738,7 +10739,7 @@ Action,Action,module,Magento_Sitemap
 "Solr Server Hostname","Solr Server Vertsnavn",module,Magento_Solr
 "Solr Server Port","Solr serverport",module,Magento_Solr
 "Solr Server Username","Solr Server Username",module,Magento_Solr
-"Solr Server Password","Solr Server Password",module,Magento_Solr
+"Solr Server Password","Solr Server passord",module,Magento_Solr
 "Solr Server Timeout","Solr Server Timeout",module,Magento_Solr
 "Solr Server Path","Solr Server Path",module,Magento_Solr
 "Without starting and trailing slashes.","Without starting and trailing slashes.",module,Magento_Solr
